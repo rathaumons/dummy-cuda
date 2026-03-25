@@ -1,0 +1,13 @@
+include *.cff
+include *.in
+include *.md
+include LICENSE
+
+include dummy_cuda/*.cu
+include dummy_cuda/*.cpp
+
+global-exclude __pycache__/
+global-exclude *.pyc
+
+prune .github
+prune .vscode
